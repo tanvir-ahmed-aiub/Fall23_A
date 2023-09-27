@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_OuterLayout.cshtml";
+}
+
+<h1>@ViewBag.Uname</h1>
+<h1>@ViewBag.Pass</h1>
+<h2>Login</h2>
+<form action="" method="post">
+    <input type="text" name="Username" class="form-control" placeholder="Username"/>
+    <input type="password" name="Password" class="form-control" placeholder="Password"/>
+    <input type="submit" class="btn btn-danger" value="Login"/>
+    @*<a href="/home/loginsubmit" class="btn btn-success">Login</a>*@
+
+</form>
