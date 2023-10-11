@@ -4,9 +4,15 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bf22b3da282c41a28a629f1d6b6d08f4" Name="Diagram1">
+      <Diagram DiagramId="bf22b3da282c41a28a629f1d6b6d08f4" Name="Diagram1" ZoomLevel="86">
         <EntityTypeShape EntityType="DemoF23_AModel.Department" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DemoF23_AModel.Student" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoF23_AModel.Cours" Width="1.5" PointX="3" PointY="4.75" />
+        <EntityTypeShape EntityType="DemoF23_AModel.CourseStudent" Width="1.5" PointX="5.25" PointY="2.75" />
+        <AssociationConnector Association="DemoF23_AModel.FK_Courses_Departments" />
+        <AssociationConnector Association="DemoF23_AModel.FK_CourseStudents_Courses" />
+        <AssociationConnector Association="DemoF23_AModel.FK_CourseStudents_Students" />
+        <AssociationConnector Association="DemoF23_AModel.FK_Students_Departments" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

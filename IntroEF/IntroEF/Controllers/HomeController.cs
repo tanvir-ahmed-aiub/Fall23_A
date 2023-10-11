@@ -36,6 +36,18 @@ namespace IntroEF.Controllers
             //            select d).SingleOrDefault();
             return View(data);
         }
+        public ActionResult Details(int id) { 
+            var db = new DemoF23_AEntities();
+            var dept = db.Departments.Find(id);
+            //ViewBag.Students = (from s in db.Students
+            //                where s.DeptId == id
+            //                select s).ToList();
+            //ViewBag.Courses = (from c in db.Courses
+            //               where c.DeptId == id
+            //               select c).ToList();
+            return View(dept);
+
+        }
         [HttpPost]
         public ActionResult Edit(Department d) {
             var db = new DemoF23_AEntities();
