@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Info";
+}
+
+<h2>Info</h2>
+<form action="/registration/register" method="post">
+    <input type="text" name="StudentId" placeholder="Student Id" class="form-control"/>
+    @foreach(var c in ViewBag.Courses)
+    {
+        <input type="checkbox"  name="Courses[]" value="@c.Id"/> @c.Name <b>@c.CourseStudents.Count/40</b>
+        <br />
+
+    }
+    <input type="submit" value="Confirm" class="btn btn-danger" />
+</form>
