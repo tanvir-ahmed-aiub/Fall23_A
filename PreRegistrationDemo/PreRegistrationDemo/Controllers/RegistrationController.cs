@@ -1,4 +1,5 @@
-﻿using PreRegistrationDemo.EF;
+﻿using PreRegistrationDemo.Auth;
+using PreRegistrationDemo.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,10 @@ namespace PreRegistrationDemo.Controllers
     public class RegistrationController : Controller
     {
         // GET: Registration
+        [Logged]
         public ActionResult Info()
         {
+            
             var db = new DemoF23_AEntities();
             ViewBag.Courses = db.Courses.ToList();
             return View();

@@ -81,3 +81,5 @@ C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\obj
 C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\obj\Debug\PreRegistrationDemo.csproj.CopyComplete
 C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\obj\Debug\PreRegistrationDemo.dll
 C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\obj\Debug\PreRegistrationDemo.pdb
+C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\bin\AutoMapper.dll
+C:\Users\Tanvir Ahmed\Desktop\.NET\A\PreRegistrationDemo\PreRegistrationDemo\bin\AutoMapper.xml

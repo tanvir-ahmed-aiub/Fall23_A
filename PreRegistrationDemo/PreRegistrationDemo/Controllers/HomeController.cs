@@ -14,6 +14,12 @@ namespace PreRegistrationDemo.Controllers
             
             return View();
         }
+        public ActionResult Login() {
+            //validation
+            //authentication
+            Session["uname"] = "Tanvir";
+            return RedirectToAction("Info","Registration");
+        }
 
         
     }
